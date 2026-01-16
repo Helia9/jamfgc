@@ -1,3 +1,4 @@
+using System.Runtime.Serialization.Formatters;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -13,10 +14,16 @@ public class MovementHandler: MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.transform.position = new Vector3(0, -1, 0);
     }
 
-    public void Tick(FrameInput input, int pid)
+    public void Tick(FrameInput input, int pid, PlayerComponent self)
     {
+
+        self.TickKnockback(rb);
+        if (self.ProcessHitlag()) {
+            return;
+        }
         rb.linearVelocity = new Vector2(input.moveX * moveSpeed, rb.linearVelocity.y);
         if (input.jump && isGrounded)
         {

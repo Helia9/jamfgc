@@ -75,6 +75,13 @@ public class AttackHandler : MonoBehaviour
                 Debug.Log("Hit: " + hit.name);
                 other.Damage(currentMoveData.damage);
                 moveHitCount++;
+                other.ApplyHitlag(currentMoveData.hitlagFrames);
+                other.ApplyKnockback(
+                    currentMoveData.knockbackDirection,
+                    currentMoveData.knockbackForce,
+                    currentMoveData.knockbackFrames
+                );
+                
             }
             // handle hitboxes activation/states
             // switch on moveframecount -> data->move states

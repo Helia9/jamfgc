@@ -60,10 +60,10 @@ public class Gameloop: MonoBehaviour
         FrameInput input1 = inputHandler1.ConsumeInput();
         FrameInput input2 = inputHandler2.ConsumeInput();
 
-        movementHandler1.Tick(input1, 0);
+        movementHandler1.Tick(input1, 0, player1Component);
         attackHandler1.Tick(input1, 0, player1Component, player2Component);
 
-        movementHandler2.Tick(input2, 1);
+        movementHandler2.Tick(input2, 1, player2Component);
         attackHandler2.Tick(input2, 1, player2Component, player1Component);
 
     }

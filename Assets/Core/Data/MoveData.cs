@@ -12,6 +12,13 @@ public class MoveData : ScriptableObject
     public int recoveryFrames = 10;
 
     public int maxHits = 1;
+
+    public int hitlagFrames = 5;
+
+    public int knockbackForce = 5;
+    public int knockbackFrames = 10;
+    public Vector2 knockbackDirection = new Vector2(1f, 1f);
+    public int kbDecay = 1;
     
     public int totalFrames
     {
