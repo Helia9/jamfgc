@@ -3,6 +3,8 @@ using UnityEngine;
 public class InputBuffer
 {
     private int moveX;
+
+    private int moveY;
     private bool jump;
     private bool mediumPunch;
     private bool heavyPunch;    
@@ -11,6 +13,11 @@ public class InputBuffer
     public void SetMoveX(int value)
     {
         moveX = value;
+    }
+
+    public void SetMoveY(int value)
+    {
+        moveY = value;
     }
 
     public void SetJump()
@@ -47,6 +54,7 @@ public class InputBuffer
         var input = new FrameInput
         {
             moveX = moveX,
+            moveY = moveY,
             jump = jump,
             mediumPunch = mediumPunch,
             heavyPunch = heavyPunch,

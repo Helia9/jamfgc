@@ -4,10 +4,13 @@ using UnityEngine;
 public class PlayerComponent
 {
 
+    public enum Direction { Left, Right }
     public PlayerData playerData;
     public int playerIndex;
     public int playerHealth;
     public int ressourceCount;
+
+    public float CoordX = 0.0f;
 
     private int hitLagFrames = 0;
 
@@ -17,6 +20,12 @@ public class PlayerComponent
     private float kbForce = 0f;
     private int kbFrames = 0;
     private int kbDecay = 1;
+
+    public Direction facing = Direction.Right;
+
+    public bool isCrouching = false;
+    
+    public bool isBlocking = false;
     
 
     public PlayerComponent(PlayerData data, int index )

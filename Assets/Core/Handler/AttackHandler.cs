@@ -73,6 +73,11 @@ public class AttackHandler : MonoBehaviour
             foreach (Collider2D hit in hits)
             {
                 Debug.Log("Hit: " + hit.name);
+                if (other.isBlocking) {
+                    Debug.Log("Blocked!");
+                    moveHitCount++;
+                    continue;
+                }
                 other.Damage(currentMoveData.damage);
                 moveHitCount++;
                 other.ApplyHitlag(currentMoveData.hitlagFrames);
@@ -81,7 +86,7 @@ public class AttackHandler : MonoBehaviour
                     currentMoveData.knockbackForce,
                     currentMoveData.knockbackFrames
                 );
-                
+
             }
             // handle hitboxes activation/states
             // switch on moveframecount -> data->move states

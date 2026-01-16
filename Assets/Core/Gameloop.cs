@@ -54,8 +54,23 @@ public class Gameloop: MonoBehaviour
         player2Component = new PlayerComponent(playerData2,1);
     } 
 
+
+    void UpdatePlayerDirection()
+    {
+        if (player1Component.CoordX < player2Component.CoordX) {
+            player1Component.facing = PlayerComponent.Direction.Right;
+            player2Component.facing = PlayerComponent.Direction.Left;
+        } else {
+            player1Component.facing = PlayerComponent.Direction.Left;
+            player2Component.facing = PlayerComponent.Direction.Right;
+        }
+    }
+
     void SimulateFrame()
     {
+        UpdatePlayerDirection();
+
+        Debug.Log("Player 1 X: " + player1Component.CoordX + " Player 2 X: " + player2Component.CoordX);
         // process inputs        
         FrameInput input1 = inputHandler1.ConsumeInput();
         FrameInput input2 = inputHandler2.ConsumeInput();

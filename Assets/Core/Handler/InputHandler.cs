@@ -23,6 +23,10 @@ public class InputHandler : MonoBehaviour
             // deadzone for controller
             if (v.x > 0.5f || v.x < -0.5f) {
             inputBuffer.SetMoveX(Mathf.RoundToInt(v.x));
+            
+            }
+            if (v.y > 0.5f || v.y < -0.5f) {
+            inputBuffer.SetMoveY(Mathf.RoundToInt(v.y));
             }
         }; }
         else
@@ -33,18 +37,23 @@ public class InputHandler : MonoBehaviour
             if (v.x > 0.5f || v.x < -0.5f) {
             inputBuffer.SetMoveX(Mathf.RoundToInt(v.x));
             }
+            if (v.y > 0.5f || v.y < -0.5f) {
+            inputBuffer.SetMoveY(Mathf.RoundToInt(v.y));
+            }
         };
         }
 
         controls.Player.Move.canceled += _ =>
         {
             inputBuffer.SetMoveX(0);
+            inputBuffer.SetMoveY(0);
         };
 
 
         controls.Player.Move1.canceled += _ =>
         {
             inputBuffer.SetMoveX(0);
+            inputBuffer.SetMoveY(0);
         };
 
         if (playerId == 1) {
@@ -89,5 +98,4 @@ public class InputHandler : MonoBehaviour
     {
         return inputBuffer.Consume();
     }
-
 }
