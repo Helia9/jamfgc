@@ -70,7 +70,7 @@ public class Gameloop: MonoBehaviour
     {
         UpdatePlayerDirection();
 
-        Debug.Log("Player 1 X: " + player1Component.CoordX + " Player 2 X: " + player2Component.CoordX);
+        //Debug.Log("Player 1 X: " + player1Component.CoordX + " Player 2 X: " + player2Component.CoordX);
         // process inputs        
         FrameInput input1 = inputHandler1.ConsumeInput();
         FrameInput input2 = inputHandler2.ConsumeInput();

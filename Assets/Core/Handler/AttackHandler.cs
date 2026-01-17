@@ -11,6 +11,8 @@ public class AttackHandler : MonoBehaviour
 
     public bool isAttacking = false;
 
+    public bool isActiveFrame = false;
+
     public int directionMultiplier = 1;
     private int moveFrameCount = 0;
     private int moveHitCount = 0;
@@ -52,60 +54,73 @@ public class AttackHandler : MonoBehaviour
         moveFrameCount = 0;
         currentMoveData = moveData;
         if (self.facing == PlayerComponent.Direction.Left) {
-            directionMultiplier = 1;
+            directionMultiplier = -1;
         } else {
 
-            directionMultiplier = -1;
+            directionMultiplier = 1;
         }
     }
 
     private void ProcessMove(PlayerComponent self, PlayerComponent other)
     {
         moveFrameCount++;
+        isActiveFrame = false;
         if (moveFrameCount > currentMoveData.totalFrames){
             isAttacking = false;
             moveFrameCount = 0;
             moveHitCount = 0;
             return;
         } else {
-            if (moveHitCount >= currentMoveData.maxHits) {
+            Debug.Log(currentMoveData.startupFrames);
+            Debug.Log(moveFrameCount);
+            if (moveFrameCount < currentMoveData.startupFrames) {
+                Debug.Log("startup");
                 return;
             }
-            Vector2 hitboxPos = rb.position +
-                new Vector2(
-                    currentMoveData.hitboxOffset.x * -directionMultiplier,
-                    currentMoveData.hitboxOffset.y
-                );
-            Collider2D[] hits = Physics2D.OverlapBoxAll(
-                hitboxPos,
-                currentMoveData.hitboxSize,
-                0f,
-                hurtboxLayer
-            );
-            foreach (Collider2D hit in hits)
-            {
-                Debug.Log("Hit: " + hit.name);
-                if (other.isBlocking) {
-                    Debug.Log("Blocked!");
-                    moveHitCount++;
-                    continue;
+            else if (moveFrameCount < currentMoveData.activeFrames + currentMoveData.startupFrames) {
+                if (moveHitCount >= currentMoveData.maxHits) {
+                    return;
                 }
-                other.Damage(currentMoveData.damage);
-                moveHitCount++;
-                other.ApplyHitlag(currentMoveData.hitlagFrames);
-                other.ApplyKnockback(
-                    currentMoveData.knockbackDirection,
-                    currentMoveData.knockbackForce,
-                    currentMoveData.knockbackFrames,
-                    directionMultiplier
+                Vector2 hitboxPos = rb.position +
+                    new Vector2(
+                        currentMoveData.hitboxOffset.x * directionMultiplier,
+                        currentMoveData.hitboxOffset.y
+                    );
+                Collider2D[] hits = Physics2D.OverlapBoxAll(
+                    hitboxPos,
+                    currentMoveData.hitboxSize,
+                    0f,
+                    hurtboxLayer
                 );
+                foreach (Collider2D hit in hits)
+                {
+                    Debug.Log("Hit: " + hit.name);
+                    if (other.isBlocking) {
+                        Debug.Log("Blocked!");
+                        moveHitCount++;
+                        continue;
+                    }
+                    other.Damage(currentMoveData.damage);
+                    moveHitCount++;
+                    other.ApplyHitlag(currentMoveData.hitlagFrames);
+                    other.ApplyKnockback(
+                        currentMoveData.knockbackDirection,
+                        currentMoveData.knockbackForce,
+                        currentMoveData.knockbackFrames,
+                        directionMultiplier
+                    );
 
+                }
+                // handle hitboxes activation/states
+                // switch on moveframecount -> data->move states
+                Debug.Log("active");
+                isActiveFrame = true;
             }
-            // handle hitboxes activation/states
-            // switch on moveframecount -> data->move states
+            else
+            {
+            Debug.Log("end");
+            }
         }
-        
+
     }
-
-
 }
