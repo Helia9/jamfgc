@@ -8,6 +8,7 @@ public class AttackHandler : MonoBehaviour
     public MoveData mediumPunchMoveData;    
     public MoveData heavyPunchMoveData;
     private Rigidbody2D rb;
+    public Animator animator;
 
     public bool isAttacking = false;
 
@@ -19,6 +20,7 @@ public class AttackHandler : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     
     public void Tick(FrameInput input,
@@ -29,13 +31,13 @@ public class AttackHandler : MonoBehaviour
         if (!isAttacking) {
             switch (input) {
                 case { lightPunch: true }:
-                    StartMove(lightPunchMoveData, self);
+                    StartMove(lightPunchMoveData, self, "LightPunch");
                     break;
                 case { mediumPunch: true }:
-                    StartMove(mediumPunchMoveData, self);
+                    StartMove(mediumPunchMoveData, self, "MediumPunch");
                     break;
                 case { heavyPunch: true }:
-                    StartMove(heavyPunchMoveData, self);
+                    StartMove(heavyPunchMoveData, self, "HeavyPunch");
                     break;
                 default:
                     break;
@@ -46,11 +48,12 @@ public class AttackHandler : MonoBehaviour
 
     }
 
-    private void StartMove(MoveData moveData, PlayerComponent self)
+    private void StartMove(MoveData moveData, PlayerComponent self, string animationTrigger)
     {
         isAttacking = true;
         moveFrameCount = 0;
         currentMoveData = moveData;
+        animator.SetTrigger(animationTrigger);
         if (self.facing == PlayerComponent.Direction.Left) {
             directionMultiplier = -1;
         } else {
