@@ -21,7 +21,7 @@ MonoBehaviour:
   recoveryFrames: 10
   maxHits: 1
   hitlagFrames: 5
-  knockbackForce: 5
+  knockbackForce: 7
   knockbackFrames: 10
   blockPushback: {x: 1, y: 0.5}
   blockPushbackFrames: 5
@@ -30,3 +30,9 @@ MonoBehaviour:
   knockbackDirection: {x: 1, y: 1}
   kbDecay: 1
   moveType: 0
+  startupDisplacement: {x: 0, y: 0}
+  activeDisplacement: {x: 0.1, y: 0}
+  recoveryDisplacement: {x: -0.15, y: 0}
+  startupDisplacementSpeed: 1
+  activeDisplacementSpeed: 1
+  recoveryDisplacementSpeed: 1

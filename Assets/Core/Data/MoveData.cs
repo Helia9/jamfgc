@@ -40,6 +40,14 @@ public class MoveData : ScriptableObject
     public Vector2 knockbackDirection = new Vector2(1f, 1f); // direction of the knockback
     public int kbDecay = 1; // how quickly the knockback force decays over time
     public MoveType moveType = MoveType.Medium; // type of the move
+
+    public Vector2 startupDisplacement = Vector2.zero; // displacement applied to the player during the startup frames
+    public Vector2 activeDisplacement = Vector2.zero; // displacement applied to the player during
+    public Vector2 recoveryDisplacement = Vector2.zero; // displacement applied to the player during the recovery frames
+
+    public float startupDisplacementSpeed = 1f; // speed of the displacement during startup
+    public float activeDisplacementSpeed = 1f; // speed of the displacement during active
+    public float recoveryDisplacementSpeed = 1f; // speed of the displacement during recovery
     public int totalFrames
     {
         get { return startupFrames + activeFrames + recoveryFrames; }

@@ -62,10 +62,14 @@ public class AttackHandler : MonoBehaviour
 
             directionMultiplier = 1;
         }
+        self.ApplyMoveData(moveData);
     }
 
 
 private bool isBlocking(MoveData move, PlayerComponent self, PlayerComponent other) {
+        if (move.moveType == MoveData.MoveType.Unblockable) {
+            return false;
+        }
         if (move.moveType == MoveData.MoveType.Medium && other.isBlocking)
         {
             return true;
