@@ -14,7 +14,7 @@ public class DebugHitboxes: MonoBehaviour
         if (attackHandler == null) return;
 
         // Draw active hitboxes
-        if (attackHandler.isAttacking)
+        if (attackHandler.isActiveFrame)
         {
             MoveData currentMove = attackHandler.currentMoveData;
             if (currentMove != null)
