@@ -27,6 +27,54 @@ public class PlayerComponent
     
     public bool isBlocking = false;
     
+    public int moveStartup = 0;
+    public int moveActive = 0;
+    public int moveRecovery = 0;
+    public int moveTotalFrames = 0;
+
+    public int moveMaxFrames = 0;
+    public Direction moveDirection = Direction.Right;
+    public Vector2 startupMoveDisplacement = Vector2.zero;
+    public float startupMoveDisplacementSpeed = 1f;
+    public Vector2 activeMoveDisplacement = Vector2.zero;
+    public float activeMoveDisplacementSpeed = 1f;
+    public Vector2 recoveryMoveDisplacement = Vector2.zero;
+    public float recoveryMoveDisplacementSpeed = 1f;
+
+
+    public void applyMoveDisplacement(Rigidbody2D rb)
+    {
+        int currentFrame = moveMaxFrames - moveTotalFrames;
+        if (currentFrame <= moveStartup)
+        {
+            rb.MovePosition(rb.position + new Vector2(
+                startupMoveDisplacement.x * (moveDirection == Direction.Right ? 1 : -1) * startupMoveDisplacementSpeed,
+                startupMoveDisplacement.y * startupMoveDisplacementSpeed));
+        }
+        if (currentFrame > moveStartup && currentFrame <= moveStartup + moveActive)
+        {
+            rb.MovePosition(rb.position + new Vector2(
+                activeMoveDisplacement.x * (moveDirection == Direction.Right ? 1 : -1) * activeMoveDisplacementSpeed,
+                activeMoveDisplacement.y * activeMoveDisplacementSpeed));
+        }
+        if (currentFrame > moveStartup + moveActive)
+        {
+            rb.MovePosition(rb.position + new Vector2(
+                recoveryMoveDisplacement.x * (moveDirection == Direction.Right ? 1 : -1) * recoveryMoveDisplacementSpeed,
+                recoveryMoveDisplacement.y * recoveryMoveDisplacementSpeed));
+        }
+    }
+    
+    public bool processMoveFrames(Rigidbody2D rb)
+    {
+        if (moveTotalFrames > 0)
+        {
+            moveTotalFrames--;
+            applyMoveDisplacement(rb);
+            return true;
+        }
+        return false;
+    }
 
     public PlayerComponent(PlayerData data, int index )
     {
@@ -57,6 +105,21 @@ public class PlayerComponent
         hitLagFrames = frames;
     }
 
+    public void ApplyMoveData(MoveData move)
+    {
+        moveStartup = move.startupFrames;
+        moveActive = move.activeFrames;
+        moveRecovery = move.recoveryFrames;
+        moveTotalFrames = move.totalFrames;
+        moveMaxFrames = move.totalFrames;
+        startupMoveDisplacement = move.startupDisplacement;
+        activeMoveDisplacement = move.activeDisplacement;
+        recoveryMoveDisplacement = move.recoveryDisplacement;
+        moveDirection = facing;
+        startupMoveDisplacementSpeed = move.startupDisplacementSpeed;
+        activeMoveDisplacementSpeed = move.activeDisplacementSpeed;
+        recoveryMoveDisplacementSpeed = move.recoveryDisplacementSpeed;
+    }
     public void ApplyKnockback(Vector2 direction, float force, int frames, int multiplier)
     {
         //kbDirection = direction.normalized * multiplier;

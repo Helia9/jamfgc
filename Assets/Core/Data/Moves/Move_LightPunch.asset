@@ -29,4 +29,10 @@ MonoBehaviour:
   blockStunFrames: 10
   knockbackDirection: {x: 1, y: 1}
   kbDecay: 1
-  moveType: 0
+  moveType: 5
+  startupDisplacement: {x: 0, y: 0}
+  activeDisplacement: {x: 0, y: 0}
+  recoveryDisplacement: {x: 0, y: 0}
+  startupDisplacementSpeed: 1
+  activeDisplacementSpeed: 1
+  recoveryDisplacementSpeed: 1

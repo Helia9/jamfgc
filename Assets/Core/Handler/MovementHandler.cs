@@ -53,6 +53,9 @@ public class MovementHandler : MonoBehaviour
             self.isBlocking = false;
         }
 
+        if (self.processMoveFrames(rb)) {
+            return;
+        }
         if (!(input.moveY < -0.5f)) {
             rb.linearVelocity = new Vector2(input.moveX * moveSpeed, rb.linearVelocity.y);
             self.CoordX = rb.transform.position.x;
