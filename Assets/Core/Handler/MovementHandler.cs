@@ -25,8 +25,6 @@ public class MovementHandler : MonoBehaviour
         col = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
-        // Sauvegarder les valeurs debout
         standingSize = col.size;
         standingOffset = col.offset;
     }
@@ -38,6 +36,18 @@ public class MovementHandler : MonoBehaviour
         if (self.ProcessHitlag()) {
             return;
         }
+        bool isBackWalking = false;
+        bool isMoving = input.moveX > 0.5f || input.moveX < -0.5f;
+
+        if (input.moveX > 0.5f && self.facing == PlayerComponent.Direction.Left) {
+            self.isBlocking = true;
+            isBackWalking = true;
+        } else if (input.moveX < -0.5f && self.facing == PlayerComponent.Direction.Right) {
+            self.isBlocking = true;
+            isBackWalking = true;
+        } else {
+            self.isBlocking = false;
+        }
 
         if (self.processMoveFrames(rb)) {
             return;
@@ -45,28 +55,18 @@ public class MovementHandler : MonoBehaviour
         if (!(input.moveY < -0.5f)) {
             rb.linearVelocity = new Vector2(input.moveX * moveSpeed, rb.linearVelocity.y);
             self.CoordX = rb.transform.position.x;
-            animator.SetBool("isWalking", (input.moveX > 0.5f || input.moveX < -0.5f));
         }
+        animator.SetBool("isWalking", isMoving && !isBackWalking);
+        animator.SetBool("isBackWalking", isBackWalking);
 
         if (input.jump && isGrounded) {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
         }
         animator.SetBool("isGrounded", isGrounded);
-
-        if (input.moveX > 0.5f && self.facing == PlayerComponent.Direction.Left) {
-            // back
-            self.isBlocking = true;
-        } else if (input.moveX < -0.5f && self.facing == PlayerComponent.Direction.Right) {
-            // other back
-            self.isBlocking = true;
-        } else {
-            self.isBlocking = false;
-        }
         if (input.moveY < -0.5f) {
             self.isCrouching = true;
             col.size = crouchingSize;
-            // Garder le bas du collider au même endroit
             float standingBottom = standingOffset.y - standingSize.y / 2f;
             float newOffsetY = (standingBottom + crouchingSize.y) - 0.165f;
            // Debug.Log(newOffsetY);
