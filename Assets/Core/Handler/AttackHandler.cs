@@ -12,6 +12,7 @@ public class AttackHandler : MonoBehaviour
 
     public bool isAttacking = false;
 
+    public int directionMultiplier = 1;
     private int moveFrameCount = 0;
     private int moveHitCount = 0;
     public MoveData currentMoveData;
@@ -30,13 +31,13 @@ public class AttackHandler : MonoBehaviour
         if (!isAttacking) {
             switch (input) {
                 case { lightPunch: true }:
-                    StartMove(lightPunchMoveData, "LightPunch");
+                    StartMove(lightPunchMoveData, self, "LightPunch");
                     break;
                 case { mediumPunch: true }:
-                    StartMove(mediumPunchMoveData, "MediumPunch");
+                    StartMove(mediumPunchMoveData, self, "MediumPunch");
                     break;
                 case { heavyPunch: true }:
-                    StartMove(heavyPunchMoveData, "HeavyPunch");
+                    StartMove(heavyPunchMoveData, self, "HeavyPunch");
                     break;
                 default:
                     break;
@@ -47,14 +48,36 @@ public class AttackHandler : MonoBehaviour
 
     }
 
-    private void StartMove(MoveData moveData, string animationTrigger)
+    private void StartMove(MoveData moveData, PlayerComponent self, string animationTrigger)
     {
         isAttacking = true;
         moveFrameCount = 0;
         currentMoveData = moveData;
         animator.SetTrigger(animationTrigger);
+        if (self.facing == PlayerComponent.Direction.Left) {
+            directionMultiplier = -1;
+        } else {
+
+            directionMultiplier = 1;
+        }
     }
 
+
+private bool isBlocking(MoveData move, PlayerComponent self, PlayerComponent other) {
+        if (move.moveType == MoveData.MoveType.Medium && other.isBlocking)
+        {
+            return true;
+        }
+        if (move.moveType == MoveData.MoveType.Low && other.isBlocking && other.isCrouching)
+        {
+            return true;
+        }
+        if (move.moveType == MoveData.MoveType.High && other.isBlocking && !other.isCrouching)
+        {
+            return true;
+        }
+        return false;
+    }
     private void ProcessMove(PlayerComponent self, PlayerComponent other)
     {
         moveFrameCount++;
@@ -67,8 +90,13 @@ public class AttackHandler : MonoBehaviour
             if (moveHitCount >= currentMoveData.maxHits) {
                 return;
             }
+            Vector2 hitboxPos = rb.position +
+                new Vector2(
+                    currentMoveData.hitboxOffset.x * directionMultiplier,
+                    currentMoveData.hitboxOffset.y
+                );
             Collider2D[] hits = Physics2D.OverlapBoxAll(
-                rb.position + currentMoveData.hitboxOffset,
+                hitboxPos,
                 currentMoveData.hitboxSize,
                 0f,
                 hurtboxLayer
@@ -76,7 +104,14 @@ public class AttackHandler : MonoBehaviour
             foreach (Collider2D hit in hits)
             {
                 Debug.Log("Hit: " + hit.name);
-                if (other.isBlocking) {
+                if (isBlocking(currentMoveData, self, other)) {
+                    other.ApplyKnockback(
+                        currentMoveData.blockPushback,
+                        currentMoveData.blockPushbackForce,
+                        currentMoveData.blockPushbackFrames,
+                        directionMultiplier
+                    );
+                    other.ApplyHitlag(currentMoveData.blockStunFrames);
                     Debug.Log("Blocked!");
                     moveHitCount++;
                     continue;
@@ -87,7 +122,8 @@ public class AttackHandler : MonoBehaviour
                 other.ApplyKnockback(
                     currentMoveData.knockbackDirection,
                     currentMoveData.knockbackForce,
-                    currentMoveData.knockbackFrames
+                    currentMoveData.knockbackFrames,
+                    directionMultiplier
                 );
 
             }
