@@ -5438,3 +5438,2345 @@ Received Import Request.
 Start importing Assets/Core/Handler/MovementHandler.cs using Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd50cd7dfb1a8f7741a088bea008f6cac') in 0.002965083 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.426 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (3.5 MB). Loaded Objects now: 8829.
+Memory consumption went from 238.9 MB to 235.4 MB.
+Total: 5.403792 ms (FindLiveObjects: 0.346833 ms CreateObjectMapping: 0.126458 ms MarkObjects: 3.924584 ms  DeleteObjects: 1.005709 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.363 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (91ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (363ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (3.3 MB). Loaded Objects now: 8832.
+Memory consumption went from 242.3 MB to 238.9 MB.
+Total: 5.380625 ms (FindLiveObjects: 0.340667 ms CreateObjectMapping: 0.152667 ms MarkObjects: 3.865583 ms  DeleteObjects: 1.021667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1881.813847 seconds.
+  path: Assets/Animations/ArcueidWalk.anim
+  artifactKey: Guid(6e2e20884ac4b4a98960c5c67c20254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ArcueidWalk.anim using Guid(6e2e20884ac4b4a98960c5c67c20254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf4ec2975b69921f7e4965195a0b7bc9') in 0.034664333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.956537 seconds.
+  path: Assets/Animations/ArcueidBackWalk.anim
+  artifactKey: Guid(be9518795170b4dc4970a316fb59b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ArcueidBackWalk.anim using Guid(be9518795170b4dc4970a316fb59b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53e4647c2091c245878b1f324fd03e07') in 0.000781958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.089474 seconds.
+  path: Assets/Core/Handler/MovementHandler.cs
+  artifactKey: Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Core/Handler/MovementHandler.cs using Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '314fb8200784a5cac3f261899934faad') in 0.03846925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.115963 seconds.
+  path: Assets/sprite_arcueid/arc5226.png
+  artifactKey: Guid(02a9af4ae0f6d4928b8fd5a776f169a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5226.png using Guid(02a9af4ae0f6d4928b8fd5a776f169a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a07d5f5bbfa4b255dbcd10ae1719e78') in 0.050763041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sprite_arcueid/arc5704.png
+  artifactKey: Guid(1eb85aa6278e5413d8f0f4c355d3495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5704.png using Guid(1eb85aa6278e5413d8f0f4c355d3495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c0c2d5d63491215a8fe29016a9299e') in 0.005937458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/sprite_arcueid/arc6328.png
+  artifactKey: Guid(922216dd5e70d4737b323262e3363c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6328.png using Guid(922216dd5e70d4737b323262e3363c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd50ad72100a2ff80bad7f9fd35761d0') in 0.005230375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sprite_arcueid/arc5488.png
+  artifactKey: Guid(81bba263b31ed48b284a0cb580f8477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5488.png using Guid(81bba263b31ed48b284a0cb580f8477f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b06a0379f1d3260b8133513e53b844') in 0.008819208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprite_arcueid/arc9112.png
+  artifactKey: Guid(b9b3c0f0f5eeb4f41a14deecdad8c378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9112.png using Guid(b9b3c0f0f5eeb4f41a14deecdad8c378) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a044a480c44a6f27fd1d4106288c46') in 0.005881709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprite_arcueid/arc6320.png
+  artifactKey: Guid(5ac709c21121b4f83827fdb10c8c599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6320.png using Guid(5ac709c21121b4f83827fdb10c8c599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a883d24e99c9b8083b0275b98ef30b') in 0.006272625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/sprite_arcueid/arc5604.png
+  artifactKey: Guid(b58a9ba121f604c0d85b477d9cc7dba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5604.png using Guid(b58a9ba121f604c0d85b477d9cc7dba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5801f6f88a643ce31d8f4549d98e0d') in 0.006032333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sprite_arcueid/arc6304.png
+  artifactKey: Guid(7cc6b89ca06c145759a9d168633105e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6304.png using Guid(7cc6b89ca06c145759a9d168633105e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a68df19b55db642c12ab2fff607e85f5') in 0.006640166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/sprite_arcueid/arc5250.png
+  artifactKey: Guid(9fe57044675b8451c99459f016703403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5250.png using Guid(9fe57044675b8451c99459f016703403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c053d07cc10a13554e89bde93c6c0f6f') in 0.005088083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprite_arcueid/arc5230.png
+  artifactKey: Guid(86f7168456a7c44459dda44adcf381da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5230.png using Guid(86f7168456a7c44459dda44adcf381da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a81884cda434b8a3dd7ce120aa1c4dc') in 0.0062575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprite_arcueid/arc5800.png
+  artifactKey: Guid(1afd176cf53ea4428a22c82714f2f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5800.png using Guid(1afd176cf53ea4428a22c82714f2f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f99d857bf5aa5985def82471331869e') in 0.006156542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprite_arcueid/arc5607.png
+  artifactKey: Guid(8466c143581c64ec081930c69390c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5607.png using Guid(8466c143581c64ec081930c69390c067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e889e5712c73bb7768cad574aabcf8c9') in 0.005633333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sprite_arcueid/arc5405.png
+  artifactKey: Guid(25ade95a02a1b4682baa3aa2aefcbbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5405.png using Guid(25ade95a02a1b4682baa3aa2aefcbbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32409f92abe328b3f4214aa5dd998f79') in 0.006173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprite_arcueid/arc5812.png
+  artifactKey: Guid(15632c1d9df404ec4a3c0ca4ab5b4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5812.png using Guid(15632c1d9df404ec4a3c0ca4ab5b4c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b6bae7d0636f1793516289d98fc9c6') in 0.006361792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/sprite_arcueid/arc9107.png
+  artifactKey: Guid(e5cfdb5af27514ebea4996699f0dae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9107.png using Guid(e5cfdb5af27514ebea4996699f0dae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd0da9cb02b7d05cc3626723424b715') in 0.006948125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/sprite_arcueid/arc5233.png
+  artifactKey: Guid(6344e3a2c580c48f1934eee5a16eefdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5233.png using Guid(6344e3a2c580c48f1934eee5a16eefdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10fcacd7e416d70d578764c5b2c00180') in 0.009031292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite_arcueid/arc5483.png
+  artifactKey: Guid(fa9d087174d0d4dedb54b2ab6d882a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5483.png using Guid(fa9d087174d0d4dedb54b2ab6d882a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45266bb4333403a6108e264af58d41de') in 0.0054395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/sprite_arcueid/arc5608.png
+  artifactKey: Guid(9407769a61f644c7ba4c8b44e63b24e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5608.png using Guid(9407769a61f644c7ba4c8b44e63b24e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81450203870fca185fd94a90ca1a4438') in 0.007083333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprite_arcueid/arc6326.png
+  artifactKey: Guid(64ec753f7cf244397916a433dd5672ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6326.png using Guid(64ec753f7cf244397916a433dd5672ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bda9bd67c351074dd37c31cb346523') in 0.008783291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sprite_arcueid/arc5409.png
+  artifactKey: Guid(6fc4e95dd95e14d8cb5e6dbb22ae848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5409.png using Guid(6fc4e95dd95e14d8cb5e6dbb22ae848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2e5b10ea9f3ff0b36242c712ac889d2') in 0.00694675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc5606.png
+  artifactKey: Guid(05fa206f4bc9743e7bf03b45a4aa169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5606.png using Guid(05fa206f4bc9743e7bf03b45a4aa169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79332ab307051539e7ace5300b024d20') in 0.008758375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprite_arcueid/arc6310.png
+  artifactKey: Guid(adb672136ca7e4651a768c8e6ad32a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6310.png using Guid(adb672136ca7e4651a768c8e6ad32a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a2add7eb4ae0ab0bd685aa1812811c2') in 0.009108459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprite_arcueid/arc9117.png
+  artifactKey: Guid(39cd27e8b677c4f3aa408c99e4de93bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9117.png using Guid(39cd27e8b677c4f3aa408c99e4de93bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9fc545958821a0361bd1889d61d27d2') in 0.006991416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/sprite_arcueid/arc5401.png
+  artifactKey: Guid(7e4922c898e4540b9a00aee3e2286a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5401.png using Guid(7e4922c898e4540b9a00aee3e2286a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc99da13b78333bb0eeabd333b1ad9a9') in 0.008520416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprite_arcueid/arc5310.png
+  artifactKey: Guid(354842339f4cd48ee81865c343736f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5310.png using Guid(354842339f4cd48ee81865c343736f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef8bfda298b0c06c481398f93f091b2') in 0.007876958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/sprite_arcueid/arc5251.png
+  artifactKey: Guid(b4e32550374764125aeafaf0bf6be4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5251.png using Guid(b4e32550374764125aeafaf0bf6be4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56df74a94d091672f1751d775daf191c') in 0.010167667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprite_arcueid/arc5706.png
+  artifactKey: Guid(29f837f4b41574baa87408f32b845ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5706.png using Guid(29f837f4b41574baa87408f32b845ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '685faac98b89258ea6cdce34679aaee9') in 0.006978334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprite_arcueid/arc5601.png
+  artifactKey: Guid(0b4d50cc8a1304389b405f866df55a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5601.png using Guid(0b4d50cc8a1304389b405f866df55a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ef365f76d5acba6794c137bcc10250') in 0.007204291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sprite_arcueid/arc6014.png
+  artifactKey: Guid(577b3002938d84d0398f688dbb5e6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6014.png using Guid(577b3002938d84d0398f688dbb5e6c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a13921184d669ed174f1f02eb980c1d3') in 0.006616125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprite_arcueid/arc5400.png
+  artifactKey: Guid(eb00c8e35a8d7424190779e89d231014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5400.png using Guid(eb00c8e35a8d7424190779e89d231014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19f089b366ca69f597c77be483a92746') in 0.006890875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprite_arcueid/arc5309.png
+  artifactKey: Guid(d9dfa848950784924bcad6a057dea66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5309.png using Guid(d9dfa848950784924bcad6a057dea66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9c6113ad3bd4eab70959101fe011180') in 0.007233959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite_arcueid/arc5264.png
+  artifactKey: Guid(24793bbc32bd94ec3984f3e3618fd1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5264.png using Guid(24793bbc32bd94ec3984f3e3618fd1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e93b5d6ef925f1a06f0dc16c0b64ac65') in 0.005632417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/sprite_arcueid/arc5300.png
+  artifactKey: Guid(c58412a3e5d64441b9754056d1003369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5300.png using Guid(c58412a3e5d64441b9754056d1003369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfbed87ff643605b3e5786a9d7d92da') in 0.006860791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/sprite_arcueid/arc5254.png
+  artifactKey: Guid(d269ec06e54be410eb0899b86a609c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5254.png using Guid(d269ec06e54be410eb0899b86a609c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178b0a9144a33413ca6945946838e147') in 0.008396125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/sprite_arcueid/arc5411.png
+  artifactKey: Guid(81e7ccd9eb5f94ee28492fe83621fa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5411.png using Guid(81e7ccd9eb5f94ee28492fe83621fa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a311a7ebbc47a1bd6a17159086a8435') in 0.007017333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/sprite_arcueid/arc5467.png
+  artifactKey: Guid(ed0c0dda228e8415d82f4a91dc5d2632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5467.png using Guid(ed0c0dda228e8415d82f4a91dc5d2632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be493f7f9efef69152206e120441b7f9') in 0.008035791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite_arcueid/arc5232.png
+  artifactKey: Guid(b2e46e6f5aacd4c239e1e9a4a4762e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5232.png using Guid(b2e46e6f5aacd4c239e1e9a4a4762e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b21ac54b4b86fab7506a98d7bc98d938') in 0.007496542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc5258.png
+  artifactKey: Guid(b21939c631b364c6eaf191c412216860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5258.png using Guid(b21939c631b364c6eaf191c412216860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2406827664e6db6ab67d8d970de7b11') in 0.009641791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/sprite_arcueid/arc7106.png
+  artifactKey: Guid(f07631ff88d4b4cfb84fe1f527e242e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7106.png using Guid(f07631ff88d4b4cfb84fe1f527e242e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ddd7a8eeb2a67e04097c590242a2373') in 0.008095625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc7008.png
+  artifactKey: Guid(4fefad1c31739484fa33834072ac26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7008.png using Guid(4fefad1c31739484fa33834072ac26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e968871d274ee19bfbab9c9bae4af7b') in 0.006429542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite_arcueid/arc7015.png
+  artifactKey: Guid(e9d41e41539164a32a9cffde127e9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7015.png using Guid(e9d41e41539164a32a9cffde127e9416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e51fe9f1d15d51eebb905f28f39a0aa5') in 0.00711525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/sprite_arcueid/arc7024.png
+  artifactKey: Guid(50a058f3b7515407eae606284091d56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7024.png using Guid(50a058f3b7515407eae606284091d56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b17a526fa8e353687de4053cf361ee03') in 0.005764541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/sprite_arcueid/arc7001.png
+  artifactKey: Guid(7700c9b2fb0a94f858ec99eaa2b43b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7001.png using Guid(7700c9b2fb0a94f858ec99eaa2b43b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89bf73e5063d23da5ed2dda7d3598d6') in 0.008517125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprite_arcueid/arc7007.png
+  artifactKey: Guid(c3ffbd7fb10334dafae4a1a3a388c023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7007.png using Guid(c3ffbd7fb10334dafae4a1a3a388c023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893dbbd8e97cad2e443dbe5163505596') in 0.006725625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprite_arcueid/arc7004.png
+  artifactKey: Guid(df16b26db50b44ce4aad77985c41bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7004.png using Guid(df16b26db50b44ce4aad77985c41bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb846c286a3eb1cacc60c4acf13cc1dc') in 0.007697125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprite_arcueid/arc7003.png
+  artifactKey: Guid(4f00fdf873d7e4b4f96629c6d6ad34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7003.png using Guid(4f00fdf873d7e4b4f96629c6d6ad34ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b45ad099e0ade808709c06a7021d68a0') in 0.007112041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/sprite_arcueid/arc5410.png
+  artifactKey: Guid(b50e452b31b944b158efe26ca21fdf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5410.png using Guid(b50e452b31b944b158efe26ca21fdf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e0814bffa7aa5e8d6f568c727f0b96') in 0.007073708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/sprite_arcueid/arc9304.png
+  artifactKey: Guid(052e2ac1589b94f79a5f37a9075adbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9304.png using Guid(052e2ac1589b94f79a5f37a9075adbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2860ee7b8d0a19e248fcd2677fa9c31') in 0.007279958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sprite_arcueid/arc5497.png
+  artifactKey: Guid(86f00513f913146d9924e17830e0ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5497.png using Guid(86f00513f913146d9924e17830e0ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '415d14fe7b8e0e154a0bda67f7cd76ae') in 0.00522025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/sprite_arcueid/arc6000.png
+  artifactKey: Guid(bd36a7d0b6f9b47ef9866ec6cd06acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6000.png using Guid(bd36a7d0b6f9b47ef9866ec6cd06acf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e0014de3b5be44aa1110a0902aefe78') in 0.00608525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprite_arcueid/arc6709.png
+  artifactKey: Guid(c02f4a42adc664efb968ec9014484b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6709.png using Guid(c02f4a42adc664efb968ec9014484b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c44714ea43697e9b3340bd6e323fd870') in 0.006271333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/sprite_arcueid/arc6706.png
+  artifactKey: Guid(894f0e83aaa4042e3bc04b8ddddc5cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6706.png using Guid(894f0e83aaa4042e3bc04b8ddddc5cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25e53c4d55835f71397eef08a098d32d') in 0.005630708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/sprite_arcueid/arc6002.png
+  artifactKey: Guid(a8f2504ae8e38436384cd9d6705f3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6002.png using Guid(a8f2504ae8e38436384cd9d6705f3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7040b7f830c1cc458229f382f2b5c32') in 0.006295292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprite_arcueid/arc6011.png
+  artifactKey: Guid(43d3a788d09c14427beac194f904096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6011.png using Guid(43d3a788d09c14427beac194f904096e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd5dd0bd65fb32020de86453b38fdc32') in 0.008788333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/sprite_arcueid/arc5406.png
+  artifactKey: Guid(4e90341b5fdf64e9a999d71902277889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5406.png using Guid(4e90341b5fdf64e9a999d71902277889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49f337016f85d3b6879181aff207fda') in 0.010008541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/sprite_arcueid/arc5266.png
+  artifactKey: Guid(40236029961794c3fb183bf1c70229c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5266.png using Guid(40236029961794c3fb183bf1c70229c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4e31c9cd67e1439d755360c9dd33d7d') in 0.007485708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/sprite_arcueid/arc9113.png
+  artifactKey: Guid(2f074c2f52a784885ac87cea46ac449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9113.png using Guid(2f074c2f52a784885ac87cea46ac449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de3b1c740ff1f7a17edbc84e3dd4be41') in 0.004817875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprite_arcueid/arc5404.png
+  artifactKey: Guid(e1442c6e60eeb48e79aeb8ebbe7404d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5404.png using Guid(e1442c6e60eeb48e79aeb8ebbe7404d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3025f40ffe7a7de7d3b09dd142704673') in 0.007402042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/sprite_arcueid/arc6907.png
+  artifactKey: Guid(c27f8682b674648998e017c1a4027f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6907.png using Guid(c27f8682b674648998e017c1a4027f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979108da1298623d24677d6c70b77a0c') in 0.005749666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/sprite_arcueid/arc6301.png
+  artifactKey: Guid(9a76eede79bf149ddb79373a4fc508e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6301.png using Guid(9a76eede79bf149ddb79373a4fc508e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15fca55c5f5c32485e1d22f8e42ff0d6') in 0.006626917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/sprite_arcueid/arc6005.png
+  artifactKey: Guid(644c16629a33348f7a509fd6df01a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6005.png using Guid(644c16629a33348f7a509fd6df01a350) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b62950c8cab0874c25ea3b62a1ac919') in 0.007133708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprite_arcueid/arc5487.png
+  artifactKey: Guid(7b5148231307848c88ddaa0c07899aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5487.png using Guid(7b5148231307848c88ddaa0c07899aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e31068246a8c235fc4834e04e545c6') in 0.009387625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sprite_arcueid/arc7101.png
+  artifactKey: Guid(d5a8044d1f6f94bc0aae9b0c6a19afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7101.png using Guid(d5a8044d1f6f94bc0aae9b0c6a19afee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5528680a778dc8e619032e52f4ae1081') in 0.0119945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprite_arcueid/arc5809.png
+  artifactKey: Guid(242c006699dea4fc4a1b2e249970b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5809.png using Guid(242c006699dea4fc4a1b2e249970b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b68b4d5846d026c0b24e40e7f42131df') in 0.005551417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/sprite_arcueid/arc6904.png
+  artifactKey: Guid(83a0e53a8c74c4ac287051bbc744b4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6904.png using Guid(83a0e53a8c74c4ac287051bbc744b4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '751f51afff9c75f6588283e6931f3311') in 0.007081958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sprite_arcueid/arc6325.png
+  artifactKey: Guid(beded679078c840fda28463c809111ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6325.png using Guid(beded679078c840fda28463c809111ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09776cb8268d320b3d24500e336912fa') in 0.006337792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprite_arcueid/arc6303.png
+  artifactKey: Guid(68328823822404558b8e3c403d7e48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6303.png using Guid(68328823822404558b8e3c403d7e48f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f50cc16d27fa6efc57e63a5e3e7569bd') in 0.006485208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/sprite_arcueid/arc7012.png
+  artifactKey: Guid(501ec68ab967d4100bf2cae610e06d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7012.png using Guid(501ec68ab967d4100bf2cae610e06d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee201853040d206ca0d528fb7b970341') in 0.006912917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprite_arcueid/arc5493.png
+  artifactKey: Guid(110f7308f0da34a49a70226d605e171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5493.png using Guid(110f7308f0da34a49a70226d605e171b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ffe0bde7335ab6b40d2579b96156344') in 0.007602125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sprite_arcueid/arc6302.png
+  artifactKey: Guid(50f9bda0505a14b3db2a32d1e3d93f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6302.png using Guid(50f9bda0505a14b3db2a32d1e3d93f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d051d00ac41aef800a341b2f09a2695') in 0.007154834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/sprite_arcueid/arc5481.png
+  artifactKey: Guid(d01bc67ebef7e47a99b0b31b04b5e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5481.png using Guid(d01bc67ebef7e47a99b0b31b04b5e26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d57f46aa0a43129b6db41655f8468eb') in 0.007456833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/sprite_arcueid/arc6006.png
+  artifactKey: Guid(f1b17b4b4698a443ebc577c5d860cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6006.png using Guid(f1b17b4b4698a443ebc577c5d860cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc3efbb0207a0099c3559baebe1d538') in 0.006458458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/sprite_arcueid/arc6902.png
+  artifactKey: Guid(8718f0b3d5066404daf84b57796229c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6902.png using Guid(8718f0b3d5066404daf84b57796229c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ecadf4c6d8af96f8c41fadd960d1c93') in 0.005765416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sprite_arcueid/arc6321.png
+  artifactKey: Guid(2c452381efdd44708bd896ba335888fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6321.png using Guid(2c452381efdd44708bd896ba335888fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd566571b12e919d35a13e6f0a44441c') in 0.005321417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sprite_arcueid/arc5255.png
+  artifactKey: Guid(9876cb59afb1c456da79381ea775bfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5255.png using Guid(9876cb59afb1c456da79381ea775bfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253d749f258f2d3009ccb56f00066983') in 0.006148625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/sprite_arcueid/arc5813.png
+  artifactKey: Guid(4ccc36a5b58264f1eae5b5b8a17212e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5813.png using Guid(4ccc36a5b58264f1eae5b5b8a17212e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e29a155c122345553a15341627a5693a') in 0.006336375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/sprite_arcueid/arc6708.png
+  artifactKey: Guid(e3bccdc44a7a64119be9d5ab8f783239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6708.png using Guid(e3bccdc44a7a64119be9d5ab8f783239) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecf1aebf6034d2e49c489e74e4b0bcfd') in 0.006803209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/sprite_arcueid/arc6308.png
+  artifactKey: Guid(c8fc022e083474b7789509286ac93ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6308.png using Guid(c8fc022e083474b7789509286ac93ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '282925b5e15ceb5685c7164a4c1c15c8') in 0.006647584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprite_arcueid/arc6901.png
+  artifactKey: Guid(ea1939104fd2344b38f3c2c1b52e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6901.png using Guid(ea1939104fd2344b38f3c2c1b52e2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a9b9e348d356cecb613bba1c2a6c41') in 0.005685959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/sprite_arcueid/arc5308.png
+  artifactKey: Guid(f9c4c92ff7551477fa1ba6bcaab8b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5308.png using Guid(f9c4c92ff7551477fa1ba6bcaab8b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5f643202f28661458d5551b0778097') in 0.006167416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/sprite_arcueid/arc5492.png
+  artifactKey: Guid(bc2b95ddb2f5d436e87d7cf43504c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5492.png using Guid(bc2b95ddb2f5d436e87d7cf43504c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b0e3f7600a11a4afa227aeee5c72cd') in 0.006575792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprite_arcueid/arc6804.png
+  artifactKey: Guid(2af3e4df2b3fa4333b8b82e306cd3431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6804.png using Guid(2af3e4df2b3fa4333b8b82e306cd3431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1622d9c929e92aeb345814ed72fba398') in 0.005648833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite_arcueid/arc7020.png
+  artifactKey: Guid(99c495e1d56084576b3be40c389a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7020.png using Guid(99c495e1d56084576b3be40c389a761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81bb2ebb8a50ffc21c0a7d77b96b7dc4') in 0.008490833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/sprite_arcueid/arc5306.png
+  artifactKey: Guid(de0806b5708194bf389b65f963d061c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5306.png using Guid(de0806b5708194bf389b65f963d061c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f76d3c9cf9be068fecfdcdfb04ca2a8') in 0.00674125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/sprite_arcueid/arc9111.png
+  artifactKey: Guid(55c3ecc6f6f79426cbe29851f849d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9111.png using Guid(55c3ecc6f6f79426cbe29851f849d622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d43c771f36a0fa4faa24442b21dcd33') in 0.009020458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprite_arcueid/arc9306.png
+  artifactKey: Guid(91f5bd9fdaed84f669ecc7a34112c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9306.png using Guid(91f5bd9fdaed84f669ecc7a34112c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae30448a8584b4f87041b662d3fb6e38') in 0.004995334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc6306.png
+  artifactKey: Guid(d18e2a6fdf1ca454fb7540f98a48c669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6306.png using Guid(d18e2a6fdf1ca454fb7540f98a48c669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbae2eee2305f434fa62c15f28fceed4') in 0.009243625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/sprite_arcueid/arc5252.png
+  artifactKey: Guid(33086bfa7ecf44ec3871fa438c3f042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5252.png using Guid(33086bfa7ecf44ec3871fa438c3f042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91a5f30983d7fd369585938287615601') in 0.0076155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/sprite_arcueid/arc9120.png
+  artifactKey: Guid(7b5786a9668b64673a0595e2c372d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9120.png using Guid(7b5786a9668b64673a0595e2c372d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fddf99d7a1d42fd08e61b570075880cf') in 0.006544667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/sprite_arcueid/arc5480.png
+  artifactKey: Guid(f22303210fb6b439b847557700a2bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5480.png using Guid(f22303210fb6b439b847557700a2bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9672d1767e1285bddeae95410f2d1c5') in 0.00590925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/sprite_arcueid/arc5305.png
+  artifactKey: Guid(15e90ad96696d4d3ba2399c3dd7c8e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5305.png using Guid(15e90ad96696d4d3ba2399c3dd7c8e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d7e900a572cb390a5fe1dc7a8b4bbf1') in 0.008451625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/sprite_arcueid/arc5707.png
+  artifactKey: Guid(66b69896ecd96432bbd159cb093d1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5707.png using Guid(66b69896ecd96432bbd159cb093d1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3eb9ca77e181215e9155d4320a13c1e') in 0.005679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/sprite_arcueid/arc5460.png
+  artifactKey: Guid(af3678323c94545b1b5b5b8b36cff7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5460.png using Guid(af3678323c94545b1b5b5b8b36cff7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ed5b3139c6e674edf323994f5d62ef') in 0.007543458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/sprite_arcueid/arc5451.png
+  artifactKey: Guid(5265e5102c3604b3e91da5f8ac17aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5451.png using Guid(5265e5102c3604b3e91da5f8ac17aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b300a48d1c43f568b045cea5e70ae31a') in 0.006283042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/sprite_arcueid/arc5454.png
+  artifactKey: Guid(474786ba5451245b68d4eb735f4cad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5454.png using Guid(474786ba5451245b68d4eb735f4cad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7e3f1b5f62b58a6615d2353fac89b12') in 0.008021166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite_arcueid/arc5453.png
+  artifactKey: Guid(9087c55d9862143cbb08e532470805e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5453.png using Guid(9087c55d9862143cbb08e532470805e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fd20fbaffaa4feb564d52a9807f016c') in 0.0051985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/sprite_arcueid/arc5463.png
+  artifactKey: Guid(b6b16f00dd8944ed49beb1622691c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5463.png using Guid(b6b16f00dd8944ed49beb1622691c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e495aeeeaafca952151d200a83c8381d') in 0.0066215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/sprite_arcueid/arc5450.png
+  artifactKey: Guid(02711f86747a946718604950cd1054da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5450.png using Guid(02711f86747a946718604950cd1054da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8cee33cae1210771dc0956fa8238980') in 0.007803917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprite_arcueid/arc6309.png
+  artifactKey: Guid(a994d2380a21a490381ac1200eb8ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6309.png using Guid(a994d2380a21a490381ac1200eb8ea3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a76b3d6b535408023a67952bde91222') in 0.00527425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/sprite_arcueid/arc9119.png
+  artifactKey: Guid(16ff299a595724810871bac2136adb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9119.png using Guid(16ff299a595724810871bac2136adb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b9fdacc0310a416c6abb45395b3014') in 0.005533333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/sprite_arcueid/arc5303.png
+  artifactKey: Guid(6abf090cec2cd42b1bd9ca4ebe9ffb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5303.png using Guid(6abf090cec2cd42b1bd9ca4ebe9ffb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15a574a324f1f3fb71ca48130acf57d4') in 0.008578833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprite_arcueid/arc7023.png
+  artifactKey: Guid(da95538fdf8eb4024a4326a3f2a8ca83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc7023.png using Guid(da95538fdf8eb4024a4326a3f2a8ca83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c8a8bab6ff38698aadd5bedcb851e79') in 0.007374042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc5407.png
+  artifactKey: Guid(e62dd5c0bf830493da823b7889e7ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5407.png using Guid(e62dd5c0bf830493da823b7889e7ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c3212ca8bda8a5bb8029a58567f3116') in 0.007546542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/sprite_arcueid/arc5458.png
+  artifactKey: Guid(c30d6f967ed994905aac324e3096e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5458.png using Guid(c30d6f967ed994905aac324e3096e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de24b79bded283a2ea6c97b53961c191') in 0.006862125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/sprite_arcueid/arc5260.png
+  artifactKey: Guid(a4315d6375f9d4edc879470d3eb39b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5260.png using Guid(a4315d6375f9d4edc879470d3eb39b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a571088ed451c81ace6254ec5ac42ee9') in 0.013692375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/sprite_arcueid/arc6800.png
+  artifactKey: Guid(54d4403018a9c42649a925c35a02b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6800.png using Guid(54d4403018a9c42649a925c35a02b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bb7edf7574ca3865fefe3c43f804968') in 0.025908958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/sprite_arcueid/arc5498.png
+  artifactKey: Guid(1fe010ace12414a139d01f0d2d5119f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5498.png using Guid(1fe010ace12414a139d01f0d2d5119f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bae4cbef41ced2a6a8b076b736a13b5') in 0.011985416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/sprite_arcueid/arc5455.png
+  artifactKey: Guid(5c00839d8a7254c3fa1075a4503f15b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5455.png using Guid(5c00839d8a7254c3fa1075a4503f15b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fb361eca5e98f99dd945b372788c4ba') in 0.00644875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/sprite_arcueid/arc5801.png
+  artifactKey: Guid(0b3c0fe0012684cdd9adc796685a6d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5801.png using Guid(0b3c0fe0012684cdd9adc796685a6d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0f89edddd1e71fbac1973341f1652d9') in 0.005931833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/sprite_arcueid/arc5313.png
+  artifactKey: Guid(a3fab19aface64c86a13cd4e766073cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5313.png using Guid(a3fab19aface64c86a13cd4e766073cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb1ba7600ecee63957680ff3c3c8b78a') in 0.007276667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sprite_arcueid/arc5263.png
+  artifactKey: Guid(77b436b23bd2940c692ae7cb2c9777e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5263.png using Guid(77b436b23bd2940c692ae7cb2c9777e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3412e61853ebe966d3137ef54db95df0') in 0.008256167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/sprite_arcueid/arc5496.png
+  artifactKey: Guid(fc8832728dcd841859cff6495bae3ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5496.png using Guid(fc8832728dcd841859cff6495bae3ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f571cd2de9b5e19134e88422102f296') in 0.0084565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/sprite_arcueid/arc5462.png
+  artifactKey: Guid(1cb323fb5373a49d2b1c17217699601c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5462.png using Guid(1cb323fb5373a49d2b1c17217699601c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15a8c5ca69e7fc6e89e8a27475cb13cc') in 0.004851792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/sprite_arcueid/arc6900.png
+  artifactKey: Guid(6dd868e61169f415f86daf654c748f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6900.png using Guid(6dd868e61169f415f86daf654c748f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb21a8ff747737c49cc1cd205a2142d3') in 0.005259125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/sprite_arcueid/arc5603.png
+  artifactKey: Guid(6f6897548fcf449c2bd8982083dce99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5603.png using Guid(6f6897548fcf449c2bd8982083dce99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49f7dae4a53b85e6b22e588b5a4dce9b') in 0.0049485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/sprite_arcueid/arc6001.png
+  artifactKey: Guid(c5def3cad301240e3a0c91a34ad3f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6001.png using Guid(c5def3cad301240e3a0c91a34ad3f038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '899ea0c495eb40205fd1ef0e83bd8491') in 0.005078625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprite_arcueid/arc5486.png
+  artifactKey: Guid(95d3fe10a0c2b43a3bd286ef619d6cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5486.png using Guid(95d3fe10a0c2b43a3bd286ef619d6cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af5a25fbed8180b53f0a9f0aa03903b') in 0.005225583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/sprite_arcueid/arc9302.png
+  artifactKey: Guid(e79c183f574ca499eb01f1771f0ffb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9302.png using Guid(e79c183f574ca499eb01f1771f0ffb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bf2ea43a6c23ad9fa58373fa36286e9') in 0.004669542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/sprite_arcueid/arc5408.png
+  artifactKey: Guid(196c3800180c5416b8a1915d9a6ccb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5408.png using Guid(196c3800180c5416b8a1915d9a6ccb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c021fde992928af6b70dc39fd418bd01') in 0.004777583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/sprite_arcueid/arc9305.png
+  artifactKey: Guid(55deb248a776c44b89f4202151586c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc9305.png using Guid(55deb248a776c44b89f4202151586c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb525af85a10d0b4d5ebc11ed1f2e1e') in 0.005053708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/sprite_arcueid/arc5469.png
+  artifactKey: Guid(06c59a9bee147439fa28d9c66b3441d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5469.png using Guid(06c59a9bee147439fa28d9c66b3441d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55bab3a2ee38f00d6109be53e996e4a') in 0.004795875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/sprite_arcueid/arc5489.png
+  artifactKey: Guid(df4543a7fddab4de5a56740ed6f6bc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5489.png using Guid(df4543a7fddab4de5a56740ed6f6bc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '991adf2076cca3ad51c7ed2609b28394') in 0.019515458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/sprite_arcueid/arc5267.png
+  artifactKey: Guid(69eb2e3ad27ae47fdbecf76cf57fc3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc5267.png using Guid(69eb2e3ad27ae47fdbecf76cf57fc3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f35d5842963e311f2263cf59ae39f03b') in 0.009492208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sprite_arcueid/arc6318.png
+  artifactKey: Guid(43f776d3dd5444aa58cd014f0046276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprite_arcueid/arc6318.png using Guid(43f776d3dd5444aa58cd014f0046276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd7c6fbc56fe1ee39f7aba8960e4456') in 0.005468041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.930098 seconds.
+  path: Assets/Animations/ShikiBackwalk.anim
+  artifactKey: Guid(27830a23085e9437db89c46428d81265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/ShikiBackwalk.anim using Guid(27830a23085e9437db89c46428d81265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40ef9c9a8f5d200b23bdde0b2be61b64') in 0.030199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.025421 seconds.
+  path: Assets/shiki_idle.anim
+  artifactKey: Guid(185cf8f23282948c3bc071665e302b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shiki_idle.anim using Guid(185cf8f23282948c3bc071665e302b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a5a0c8f0c08553679784d07774d075') in 0.002598875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.171543 seconds.
+  path: Assets/ArcueidAnimController.controller
+  artifactKey: Guid(95e0cfd9a4500dd40999f653f646ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcueidAnimController.controller using Guid(95e0cfd9a4500dd40999f653f646ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c59b3b101132b7f0cba1084b7d3e220') in 0.002725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.7 MB). Loaded Objects now: 9035.
+Memory consumption went from 248.1 MB to 245.3 MB.
+Total: 6.211625 ms (FindLiveObjects: 0.396750 ms CreateObjectMapping: 0.218250 ms MarkObjects: 4.520667 ms  DeleteObjects: 1.075458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 851ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (3.4 MB). Loaded Objects now: 9038.
+Memory consumption went from 251.4 MB to 248.0 MB.
+Total: 5.344583 ms (FindLiveObjects: 0.338250 ms CreateObjectMapping: 0.164625 ms MarkObjects: 3.912042 ms  DeleteObjects: 0.929583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 193.438562 seconds.
+  path: Assets/Core/Handler/MovementHandler.cs
+  artifactKey: Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Core/Handler/MovementHandler.cs using Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7025b58f8066d29acdcfc45454c1064') in 0.030652667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 818ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (382ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.8 MB). Loaded Objects now: 9041.
+Memory consumption went from 255.4 MB to 252.5 MB.
+Total: 6.057750 ms (FindLiveObjects: 0.356542 ms CreateObjectMapping: 0.176708 ms MarkObjects: 4.507416 ms  DeleteObjects: 1.016792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.373 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 736ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (288ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (3.5 MB). Loaded Objects now: 9044.
+Memory consumption went from 258.7 MB to 255.2 MB.
+Total: 5.588333 ms (FindLiveObjects: 0.333042 ms CreateObjectMapping: 0.272958 ms MarkObjects: 3.929292 ms  DeleteObjects: 1.052833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.412 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.8 MB). Loaded Objects now: 9047.
+Memory consumption went from 262.0 MB to 259.2 MB.
+Total: 6.130833 ms (FindLiveObjects: 0.399459 ms CreateObjectMapping: 0.188666 ms MarkObjects: 4.391625 ms  DeleteObjects: 1.150875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 1056ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.8 MB). Loaded Objects now: 9050.
+Memory consumption went from 265.1 MB to 262.3 MB.
+Total: 6.716959 ms (FindLiveObjects: 0.640042 ms CreateObjectMapping: 0.252833 ms MarkObjects: 4.497584 ms  DeleteObjects: 1.326459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6876 unused Assets / (4.0 MB). Loaded Objects now: 9050.
+Memory consumption went from 258.1 MB to 254.2 MB.
+Total: 14.890000 ms (FindLiveObjects: 0.404125 ms CreateObjectMapping: 0.161458 ms MarkObjects: 11.514250 ms  DeleteObjects: 2.809792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.429 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (3.5 MB). Loaded Objects now: 9053.
+Memory consumption went from 265.8 MB to 262.3 MB.
+Total: 5.512167 ms (FindLiveObjects: 0.344042 ms CreateObjectMapping: 0.163833 ms MarkObjects: 3.938958 ms  DeleteObjects: 1.065083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.379 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (399ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (321ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.9 MB). Loaded Objects now: 9056.
+Memory consumption went from 269.1 MB to 266.2 MB.
+Total: 6.080833 ms (FindLiveObjects: 0.391833 ms CreateObjectMapping: 0.180833 ms MarkObjects: 4.426500 ms  DeleteObjects: 1.081250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1552.739119 seconds.
+  path: Assets/Animations/ArcHeavyPunch.anim
+  artifactKey: Guid(082192f6b81c94dc6883b560a4b25678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ArcHeavyPunch.anim using Guid(082192f6b81c94dc6883b560a4b25678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ca16530700ea7e71db59cc363acbee') in 0.024327792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 873ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.8 MB). Loaded Objects now: 9059.
+Memory consumption went from 272.6 MB to 269.7 MB.
+Total: 6.257000 ms (FindLiveObjects: 0.417750 ms CreateObjectMapping: 0.222291 ms MarkObjects: 4.506834 ms  DeleteObjects: 1.110125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 899ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (346ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.7 MB). Loaded Objects now: 9062.
+Memory consumption went from 275.8 MB to 273.1 MB.
+Total: 6.453000 ms (FindLiveObjects: 0.462459 ms CreateObjectMapping: 0.195875 ms MarkObjects: 4.618583 ms  DeleteObjects: 1.175667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 819ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.7 MB). Loaded Objects now: 9065.
+Memory consumption went from 279.1 MB to 276.4 MB.
+Total: 5.933250 ms (FindLiveObjects: 0.381709 ms CreateObjectMapping: 0.206916 ms MarkObjects: 4.258917 ms  DeleteObjects: 1.085250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.415 seconds
+Domain Reload Profiling: 866ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (415ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.9 MB). Loaded Objects now: 9068.
+Memory consumption went from 282.4 MB to 279.5 MB.
+Total: 6.289708 ms (FindLiveObjects: 0.414458 ms CreateObjectMapping: 0.203167 ms MarkObjects: 4.476583 ms  DeleteObjects: 1.195208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 706.286829 seconds.
+  path: Assets/Animations/ShikiMediumPunch.anim
+  artifactKey: Guid(f2455ba59e2564407b806437e3558ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ShikiMediumPunch.anim using Guid(f2455ba59e2564407b806437e3558ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64395e2c0ed1a184f14a0b39f2ecf363') in 0.011001084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.405 seconds
+Domain Reload Profiling: 818ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (97ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (327ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.9 MB). Loaded Objects now: 9071.
+Memory consumption went from 285.8 MB to 282.8 MB.
+Total: 6.130042 ms (FindLiveObjects: 0.363542 ms CreateObjectMapping: 0.177416 ms MarkObjects: 4.407000 ms  DeleteObjects: 1.181833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6876 unused Assets / (3.0 MB). Loaded Objects now: 9071.
+Memory consumption went from 278.7 MB to 275.7 MB.
+Total: 14.013667 ms (FindLiveObjects: 0.494583 ms CreateObjectMapping: 0.151375 ms MarkObjects: 12.285083 ms  DeleteObjects: 1.082333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.438 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 886ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.9 MB). Loaded Objects now: 9074.
+Memory consumption went from 286.5 MB to 283.6 MB.
+Total: 5.852209 ms (FindLiveObjects: 0.342833 ms CreateObjectMapping: 0.155792 ms MarkObjects: 4.263500 ms  DeleteObjects: 1.089959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6876 unused Assets / (2.4 MB). Loaded Objects now: 9074.
+Memory consumption went from 279.4 MB to 277.0 MB.
+Total: 18.223750 ms (FindLiveObjects: 0.414458 ms CreateObjectMapping: 0.135625 ms MarkObjects: 16.723542 ms  DeleteObjects: 0.949958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 888ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (4.2 MB). Loaded Objects now: 9077.
+Memory consumption went from 287.2 MB to 282.9 MB.
+Total: 5.690042 ms (FindLiveObjects: 0.362125 ms CreateObjectMapping: 0.169667 ms MarkObjects: 3.859041 ms  DeleteObjects: 1.299042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f707000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 844ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.7 MB). Loaded Objects now: 9080.
+Memory consumption went from 290.5 MB to 287.8 MB.
+Total: 6.219125 ms (FindLiveObjects: 0.404917 ms CreateObjectMapping: 0.203166 ms MarkObjects: 4.459250 ms  DeleteObjects: 1.151458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fc1b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.6 MB). Loaded Objects now: 9083.
+Memory consumption went from 293.8 MB to 291.1 MB.
+Total: 6.378166 ms (FindLiveObjects: 0.451750 ms CreateObjectMapping: 0.235041 ms MarkObjects: 4.575333 ms  DeleteObjects: 1.115833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f9eb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.430 seconds
+Domain Reload Profiling: 910ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (184ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6886 unused Assets / (2.8 MB). Loaded Objects now: 9086.
+Memory consumption went from 297.0 MB to 294.2 MB.
+Total: 6.275417 ms (FindLiveObjects: 0.375042 ms CreateObjectMapping: 0.198833 ms MarkObjects: 4.496542 ms  DeleteObjects: 1.204750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1729.916165 seconds.
+  path: Assets/Core/Handler/MovementHandler.cs
+  artifactKey: Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Core/Handler/MovementHandler.cs using Guid(15813f32e4300ac4998b3ff0da1b2c83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55718f80b208cc1d19911ea33d6c668a') in 0.08092825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Animations/ShikiEndCrouch.anim
+  artifactKey: Guid(8a9280fa405ab4234a1df6e1e6f339ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/ShikiEndCrouch.anim using Guid(8a9280fa405ab4234a1df6e1e6f339ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77ea50d489e2f67dd88bd27d33ca001d') in 0.012282708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Core/Handler/AttackHandler.cs
+  artifactKey: Guid(da4af84f2d2d88a41a591af1cf17c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Core/Handler/AttackHandler.cs using Guid(da4af84f2d2d88a41a591af1cf17c534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6aed4a15cac4e541b743753dc224187c') in 0.002001625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/sprite_shiki/ArcCrouch.anim
+  artifactKey: Guid(0803030e0a8884dd1abccc87979e1111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/sprite_shiki/ArcCrouch.anim using Guid(0803030e0a8884dd1abccc87979e1111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd646c3a0b37eb2a44ccb31607f0cf117') in 0.002876875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

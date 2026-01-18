@@ -10,18 +10,25 @@ public class MovementHandler : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private Rigidbody2D rb;
-    private Collider2D col;
+    private CapsuleCollider2D col;
     public bool isGrounded { get; private set; }
+
+    private Vector2 standingSize;
+    private Vector2 standingOffset;
+    public Vector2 crouchingSize = new Vector2(0.5f, 0.8f);
+    public Vector2 crouchingOffset = new Vector2(0f, 3.0f);
 
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
+        col = GetComponent<CapsuleCollider2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>;
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // rb.transform.position = new Vector3(0, -1, 0);
+        // Sauvegarder les valeurs debout
+        standingSize = col.size;
+        standingOffset = col.offset;
     }
 
     public void Tick(FrameInput input, int pid, PlayerComponent self)
@@ -40,7 +47,9 @@ public class MovementHandler : MonoBehaviour
 
         if (input.jump && isGrounded) {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            animator.SetTrigger("Jump");
         }
+        animator.SetBool("isGrounded", isGrounded);
 
         if (input.moveX > 0.5f && self.facing == PlayerComponent.Direction.Left) {
             // back
@@ -53,13 +62,19 @@ public class MovementHandler : MonoBehaviour
         }
         if (input.moveY < -0.5f) {
             self.isCrouching = true;
-            //col.offset = new Vector2(col.offset.x, -0.0f);
-            //col.transform.localScale = new Vector3(1f, 0.5f, 1f);
+            col.size = crouchingSize;
+            // Garder le bas du collider au même endroit
+            float standingBottom = standingOffset.y - standingSize.y / 2f;
+            float newOffsetY = (standingBottom + crouchingSize.y) - 0.165f;
+            Debug.Log(newOffsetY);
+            col.offset = new Vector2(standingOffset.x, newOffsetY);
         } else {
             self.isCrouching = false;
-            //col.offset = new Vector2(col.offset.x, 0f);
-            //col.transform.localScale = new Vector3(1f, 1f, 1f);
+            col.size = standingSize;
+            col.offset = standingOffset;
         }
+        
+        animator.SetBool("isCrouching", self.isCrouching);
         if (self.facing == PlayerComponent.Direction.Left) {
             spriteRenderer.flipX = true;
         } else if (self.facing == PlayerComponent.Direction.Right) {
